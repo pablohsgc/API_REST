@@ -1,0 +1,18 @@
+{
+  "name": "api-rest-de-autenticacao",
+  "version": "1.0.0",
+  "description": "API REST com micro serviço de autenticação de usuario",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.2",
+    "http-status-codes": "^2.1.4",
+    "pg": "^8.7.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node index.js"
+  },
+  "author": "Pablo Henrique Santos",
+  "license": "ISC"
+}
